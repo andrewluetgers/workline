@@ -1,0 +1,32 @@
+{
+  "name": "workline",
+  "version": "0.0.1",
+  "description": "orchestrate workflows",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/andrewluetgers/workline.git"
+  },
+  "keywords": [
+    "pipeline",
+    "workflow",
+    "orchestration"
+  ],
+  "author": "Andrew Luetgers <andrew.luetgers@gmail.com> (http://www.andrewluetgers.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andrewluetgers/workline/issues"
+  },
+  "homepage": "https://github.com/andrewluetgers/workline",
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "async": "^1.3.0",
+    "lodash": "^3.10.0"
+  }
+}
